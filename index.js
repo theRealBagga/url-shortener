@@ -3,7 +3,7 @@ const urlRoute = require('./Routes/url')
 const connectDB = require('./connection')
 const staticRoute = require("./Routes/staticRoute")
 const path  = require("path")
-require("dotenv").config(); // missing
+require("dotenv").config(); 
 
 const app = express();
 const PORT = 8000;
